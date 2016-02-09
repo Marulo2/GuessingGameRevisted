@@ -1,0 +1,30 @@
+body {
+  background-image: url(../img/1340208.jpg);
+}
+
+.headContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.headStyle {
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-top: 1vw;
+}
+
+.mainContainer {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.footContainer {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
