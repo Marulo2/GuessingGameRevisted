@@ -3,27 +3,28 @@ var questionArray = ["Is this a placeholder question?", "How about this one?", "
 var globalCounter = 0;
 
 function questionLoop() {
-  for (i = 0; i < 3; i++) {
-    var answers = prompt(questionArray[i]);
+  for (globalCounter; globalCounter < 3; globalCounter++) {
+    var answers = prompt(questionArray[globalCounter]);
     if (answers == 'y') {
       alert('Good job!');
       insertImg();
     } else {
       alert('That is wrong');
+      questionLoop();
     }
   }
 };
 
 function insertImg() {
-  if (globalCounter == 1) {
+  if (globalCounter == 0) {
     document.getElementById('question1').innerHTML = '<p class="questions">Let\'s give it a shot!</p>';
-    globalCounter++;
-  } else if (globalCounter == 2) {
+    alert('test');
+  } else if (globalCounter == 1) {
     document.getElementById('question2').innerHTML = '<p class="questions">Let\'s give it a shot!</p>';
-    globalCounter++;
-  } else if (globalCounter == 3){
+    alert('test');
+  } else if (globalCounter == 2){
     document.getElementById('question3').innerHTML = '<p class="questions">Let\'s give it a shot!</p>';
-    globalCounter++;
+    alert('test');
   } else {
     alert('boohoo');
   }

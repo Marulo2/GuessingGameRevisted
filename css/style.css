@@ -28,3 +28,30 @@ body {
   padding-left: 10vw;
   padding-right: 10vw;
 }
+
+.questions {
+  position: relative;
+  text-align: center;
+  left: 50%;
+}
+
+#question1 {
+  background-color: lightblue;
+  border: 1vw; solid black;
+  border-radius: 5vw;
+  margin-top: 3vw;
+}
+
+#question2 {
+  background-color: lightblue;
+  border: 1vw; solid black;
+  border-radius: 5vw;
+  margin-top: 6vw;
+}
+
+#question3 {
+  background-color: lightblue;
+  border: 1vw; solid black;
+  border-radius: 5vw;
+  margin-top: 9vw;
+}
