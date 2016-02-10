@@ -18,11 +18,11 @@ function questionLoop() {
 
 function insertImg() {
   if (globalCounter == 0) {
-    document.getElementById('question1').innerHTML = '<p class="questions">Let\'s give it a shot!</p>';
+    document.getElementById('question1').innerHTML = '<p class="questions">Yup! The sky is blue(sometimes grey here in Seattle)</p>';
   } else if (globalCounter == 1) {
-    document.getElementById('question2').innerHTML = '<p class="questions">Let\'s give it a shot!</p>';
+    document.getElementById('question2').innerHTML = '<p class="questions">Yep! Sam has three cats! Did you know cats hate cucumbers?</p>';
   } else if (globalCounter == 2){
-    document.getElementById('question3').innerHTML = '<p class="questions">Let\'s give it a shot!</p>';
+    document.getElementById('question3').innerHTML = '<p class="questions">Naturally, that one was a no brainer!</p>';
   } else {
     alert('boohoo');
   }

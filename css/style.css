@@ -30,28 +30,29 @@ body {
 }
 
 .questions {
+  font-size: 25px;
+  color: black;
   position: relative;
   text-align: center;
-  left: 50%;
 }
 
 #question1 {
   background-color: lightblue;
-  border: 1vw; solid black;
+  border: 1vw solid black;
   border-radius: 5vw;
   margin-top: 3vw;
 }
 
 #question2 {
   background-color: lightblue;
-  border: 1vw; solid black;
+  border: 1vw solid black;
   border-radius: 5vw;
-  margin-top: 6vw;
+  margin-top: 5vw;
 }
 
 #question3 {
   background-color: lightblue;
-  border: 1vw; solid black;
+  border: 1vw solid black;
   border-radius: 5vw;
-  margin-top: 9vw;
+  margin-top: 5vw;
 }
